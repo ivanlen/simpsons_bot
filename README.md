@@ -6,7 +6,7 @@ In this particular example we used ~600 chapters of the Simpsons to generate the
 
 ## Bots
 
-* [Homer Simpsons' bot](https://twitter.com/bot_homer)
+* [Homer Simpson's bot](https://twitter.com/bot_homer)
 
 ## Getting Started
 
