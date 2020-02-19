@@ -52,11 +52,13 @@ if __name__ == "__main__":
     parser.add_argument('model_name',
                         type=str,
                         help='name of the bot to load')
-    parser.add_argument('--max_characters',
+    parser.add_argument('-mc',
+                        '--max_characters',
                         default=200,
                         type=int,
                         help='maximun number of characters of the generated text')
-    parser.add_argument('--tweet_interval',
+    parser.add_argument('ti',
+                        '--tweet_interval',
                         default=21600,
                         type=int,
                         help='interval between tweets in seconds')
