@@ -1,7 +1,7 @@
 # Simpsons Markov chain Twitter bot
 
 A Markov chain model to generate text and tweet it.
-In this particular example we used ~600 chapters of the Simpsons to generate the a Homer Simpson text model.  
+In this particular example we used ~600 chapters of the Simpsons to generate the Homer Simpson text model.  
 
 
 ## Bots
