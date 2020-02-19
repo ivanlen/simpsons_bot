@@ -57,7 +57,7 @@ if __name__ == "__main__":
                         default=200,
                         type=int,
                         help='maximun number of characters of the generated text')
-    parser.add_argument('ti',
+    parser.add_argument('-ti',
                         '--tweet_interval',
                         default=21600,
                         type=int,
