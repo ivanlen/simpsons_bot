@@ -30,7 +30,8 @@ class Bot:
 
     def tweet_from_model(self):
         text = self._generate_from_model()
-        self._tweet(text)
+        status = self._tweet(text)
+        return status
 
     def _tweet(self, text):
         return self._api.update_status(status=text)
@@ -43,7 +44,7 @@ def main(args):
     bot = Bot(args.model_name, max_characters=args.max_characters)
 
     while True:
-        print(bot._generate_from_model())
+        bot.tweet_from_model()
         time.sleep(args.tweet_interval)
 
 
