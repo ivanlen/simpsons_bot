@@ -1,7 +1,12 @@
-# Simpsons Markov Bot
+# Simpsons Markov chain Twitter bot
 
 A Markov chain model to generate text and tweet it.
 In this particular example we used ~600 chapters of the Simpsons to generate the a Homer Simpson text model.  
+
+
+## Bots
+
+* [Homer Simpsons' bot](https://twitter.com/bot_homer)
 
 ## Getting Started
 
@@ -24,7 +29,7 @@ See [requirements.txt](requirements.txt)
 
 3. setup [keys.py](#setup-keys)
 
-4. run `python bot.py model_name` 
+4. run `python bot.py model_name`. Use the same `model_name` that you defined in the notebook 
 
 
 ### Setup keys
@@ -43,12 +48,17 @@ and save it in `./`
 
 You will get this keys following the [tutorial]https://www.mattcrampton.com/blog/step_by_step_tutorial_to_post_to_twitter_using_python/
  
+## Built With
 
+* [markovify](https://github.com/jsvine/markovify) - A simple, extensible Markov chain generator. 
+ 
+ 
 ## Authors
 
 * **Ivan Lengyel** http://ivanlen.github.io/
 
+See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
-## License
+https://github.com/jsvine/markovify
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
