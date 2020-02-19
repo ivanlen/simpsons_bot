@@ -46,6 +46,7 @@ def main(args):
         print(bot._generate_from_model())
         time.sleep(args.tweet_interval)
 
+
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='Run the bot.')
     parser.add_argument('model_name',
